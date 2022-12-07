@@ -10,9 +10,9 @@ document.getElementById("fatmaCV").addEventListener('click',()=>{
    })
    
 
-// document.getElementById("lien_phil").addEventListener('click', () => {
-//     window.open("cv_phil.html");    
-// })
+ document.getElementById("lien_phil").addEventListener('click', () => {
+   window.open("cv_phil.html");    
+ })
 
 let buton_Gag = document.getElementById("gag");
 buton_Gag.addEventListener("click", f_ouvrirLaPageGag);

@@ -1,6 +1,16 @@
 .card{
     border: 1px solid black;
-    width: 30%;
+    width: 25%;
     background-color: rgb(251, 247, 247);
    
+}
+
+#cv-gag{
+    border: solid 3px rgb(177, 131, 131);
+    border-radius: 5px;
+    background-color: rgb(107, 101, 101);
+    color: black;
+}
+#img{
+    border-radius: 50%;
 }

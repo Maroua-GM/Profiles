@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>CV fatma</h1>
-</body>
-</html>
+
+    <title>Curriculum vitae</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fatmaCV.css">
+  </head>
+  <body>
+      <div class="cv-container">
+        <div class="left-column">
+          <img class="portait" src="data:image/png;base64,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" />
+          <div class="section">
+            <p>
+              <i class="icon fab fa-linkedin text-darkblue"></i> Fatma-HOCINE
+            </p>
+          </div>
+          <div class="section">
+            <h2>À PROPOS</h2>
+            <p>
+              Le <strong>Front-end</strong> est une de mes passions : j’aime intégrer ou imaginer des interfaces modernes, les rendre responsive et les dynamiser avec des animations élégantes. 
+            </p>
+            <p>
+              De nature débrouillard et indépendant dans mon travail, j’aime apprendre de nouvelles technologies, passer du temps à résoudre des problèmes et réaliser du code de qualité. Mes valeurs de travail : clean code, flexibilité, performance et sérieux.
+            </p>
+          </div>
+          <div class="section">
+            <h2>COMPÉTENCES</h2>
+            <ul class="skills">
+            
+              <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>HTML5 &#124; CSS3 &#124; SASS</strong></li>
+              <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Javascript</strong></li>
+              <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>jQuery</strong></li>
+              <li><i class="icon fas fa-check-circle text-darkblue"></i> Zend Framework</li>
+              <li><i class="icon fas fa-check-circle text-darkblue"></i> MySQL</li>
+              <li><i class="icon fas fa-check-circle text-darkblue"></i> Git &#124; Github</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>Langues</h2>
+            <p>
+              Français, langue maternelle
+              <br>
+                Arabe, langue maternelle
+              <br>
+              Anglais, compétence professionnelle
+            </p>
+          </div>
+          <div class="section">
+            <h2>Centres d'intérêt</h2>
+            <p>
+              Musique
+              <br>
+              Cuisine
+              <br>
+              Voyage
+              <br>
+              Informatique en général
+            </p>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="header">
+            <h1>Fatma <span class="text-blue text-uppercase">HOCINE LHADJ</span></h1>
+            <p>Freelance Front-end Developer</p>
+            <ul class="infos">
+              <li><i class="icon fas fa-at text-blue"></i> <a href="mailto:contact@pgomba.com">contact@fatmahocine.com</a></li>
+              <li><i class="icon fas fa-phone text-blue"></i> 04 75 53 80 50</li>
+              <li><i class="icon fas fa-map-marker-alt text-blue"></i> 153 boulevard de Charonne, 75020 Paris</li>
+            </ul>
+          </div>
+          <div class="content">
+            <div class="section">
+              <h2>Expériences <br><span class="text-blue">professionelles</span></h2>
+              <p>
+                <strong>2011 <i class="fas fa-long-arrow-alt-right"></i> 2014</strong>
+                <br>
+                Assistance Marketing chez <em>Longue-Vue</em>
+              </p>
+              <ul class="experience-list">
+                <li>Faire des recherches préliminaires à la préparation d'une campagne : analyse de la concurrence, du secteur, collecte de données.</li>
+                <li>Rédiger des comptes rendus de réunion, argumentaires et conclusions de compagnes.</li>
+                <li>Gérer le planning de ses supérieurs, filtrer leur communication et préparer leurs déplacements.</li>
+                <li>Établir les communications de suivi des clients et fournisseurs (appels, mails, courriers).</li>
+        
+              </ul>
+            </div>
+            <div class="section">
+              <p>
+                <strong>2015 <i class="fas fa-long-arrow-alt-right"></i> 2021</strong>
+                <br>
+                Technicienne Support Informatique
+              </p>
+              <ul class="experience-list">
+                <li>Installation matérielle, configuration logicielle des postes informatiques, équipements réseau, périphériques.</li>
+                <li>Réalisation des tests de fonctionnement.</li>
+                <li>Assurer l'assistance matérielle ou logicielle de niveau 1 et 2 auprès des utilisateurs, les guider sur place ou à distance.</li>
+                <li>Guider et sensibiliser les utilisateurs au respect de la charte informatique de l'établissement ou règles de bonnes pratiques.</li>
+                <li>Suivre la conformité de l'application des contrats de maintenance du matériel et des logiciels.</li>
+              </ul>
+
+
+
+
+
+
+            </div>
+            <div class="section">
+              <h2>Études <br><span class="text-blue">& formations</span></h2>
+              <p>
+                <strong>2015 <i class="fas fa-long-arrow-alt-right"></i> 2019</strong>
+                <br>
+                <em>Bachelier en Informatique de Gestion</em>, Diplômé, Institut Saint Laurent
+              </p>
+              <p>
+                <strong>2015</strong>
+                <br>
+                <em>STE-Formations Informatiques</em>, Formation qualifiante de Web Developer
+              </p>
+              <p>
+                <strong>2013 <i class="fas fa-long-arrow-alt-right"></i> 2014</strong>
+                <br>
+                <em>Bachelier en Sciences humaines</em>, Haute École de Liège
+              </p>
+              <p>
+                <strong>2009 <i class="fas fa-long-arrow-alt-right"></i> 2013</strong>
+                <br>
+                <em>Bachelier en Psychologie</em>, Université de Liège
+              </p>
+              <p>
+                <strong>2002 <i class="fas fa-long-arrow-alt-right"></i> 2009</strong>
+                <br>
+                <em>CESS</em>, Institut Notre-Dame de Jupille
+              </p>
+            </div>
+            <div class="section">
+              <h2>Autres <br><span class="text-blue">expériences</span></h2>
+              <p>
+                Permis B, possession d’une voiture
+                <br>
+                Animateur Scout pendant 6 ans
+                <br>
+                Brevet d’animateur de Centre de Vacances
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>

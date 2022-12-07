@@ -5,6 +5,9 @@ document.getElementById("BMaroua").addEventListener('click',()=>{
 document.getElementById("fatmaCV").addEventListener('click',()=>{
     window.open("fatmaCV.html")
    })
+   document.getElementById("gaetan").addEventListener('click',()=>{
+    window.open("Gaetan.html")
+   })
    
 
 // document.getElementById("lien_phil").addEventListener('click', () => {
